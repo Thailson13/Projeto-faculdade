@@ -13,9 +13,9 @@ This site is just an idea I had to build a college project.
 4. Git and GitHub
 
 # My contacts
-Email: thailson-games-2002@hotmail.com
-Number: (81) 98893-0428
-Instagram: @Thailson.13
+1. Email: thailson-games-2002@hotmail.com
+2. Number: (81) 98893-0428
+3.Instagram: @Thailson.13
 
 # Informações (pt-BR)
 

@@ -3,8 +3,7 @@
 ![preview](./.github/preview.png)
 
 Este site é apenas uma ideia que tive para construir um
-projeto da faculdade. Ficou incompleto, estarei iniciando um novo,
-não estava curtindo o resultado. 
+projeto da faculdade.
 
 # Tecnologias no projeto usadas!
 

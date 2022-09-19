@@ -5,7 +5,7 @@
 Este site é apenas uma ideia que tive para construir um
 projeto da faculdade.
 
-# Tecnologias no projeto usadas!
+# Tecnologias usadas no projeto!
 
 1. HTML
 2. CSS

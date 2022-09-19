@@ -6,6 +6,8 @@
 
 This site is just an idea I had to build a college project.
 
+[Click here to access the project website](https://thailson13.github.io/Projeto-faculdade/)
+
 # Technologies used in the project!
 
 1. HTML
@@ -21,6 +23,9 @@ This site is just an idea I had to build a college project.
 # Informações (pt-BR)
 
 Este site é apenas uma ideia que tive para construir um projeto da faculdade.
+
+[Clique aqui para acessar o site do projeto](https://thailson13.github.io/Projeto-faculdade/)
+
 
 # Tecnologias usadas no projeto!
 1. HTML

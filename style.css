@@ -1,8 +1,8 @@
 /* RESET GLOBAL */
 *{
-    margin: 0 auto;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 
@@ -10,131 +10,167 @@
 /* RESET LINK */
 
 a{
-    text-decoration: none;
-    color: #fff;
-    
+  text-decoration: none;
+  color: #fff;
+  
 }
 
 a:hover{
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 /* AVATAR */
 .Avatar{
-    width: 55px;
-    border-radius: 50%;
-    cursor: pointer;
-    display: block;
-    margin-top: 10px;
- 
+  width: 55px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: block;
+  margin-top: 10px;
+
 }
 
 
 /* BARRA DE NAVEGAÇÃO */
 nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 12px;
-    background: #23232e;
-    height: 8vh;
-    background-size: cover;
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 12px;
+  background: #23232e;
+  height: 8vh;
+  background-size: cover;
+
 
 }
 
 /* NAVEGADOR */
 .nav-list{
-    list-style: none;
-    display: flex;
+  list-style: none;
+  display: flex;
 }
 
 .nav-list li{ 
-  margin: 20px;    
+margin: 20px;    
 
 }
 
 /* MENU */
 .mobile-menu{
-    display: none;
-    cursor: pointer;
+  display: none;
+  cursor: pointer;
 }
 
 .mobile-menu div{
-    width: 32px;
-    height: 2px;
-    background: #fff;
-    margin: 8px;
+  width: 32px;
+  height: 2px;
+  background: #fff;
+  margin: 8px;
 
 }
 
 @media (max-width: 999px) {
-    body {
-      overflow-x: hidden;
-    }
-    .nav-list {
-      position: absolute;
-      top: 4vh;
-      right: 0;
-      width: 40vw;
-      height: 96vh;
-      background: #23232e;
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-around;
-      transform: translateX(100%);
-      transition: transform 0.3s ease-in;
-    }
-    .nav-list li {
-      margin-left: 0;
-      opacity: 0;
-    }
-    .mobile-menu {
-      display: block;
-    }
+  body {
+    overflow-x: hidden;
   }
-  
-  .nav-list.active {
-    transform: translateX(0);
+  .nav-list {
+    position: absolute;
+    top: 4vh;
+    right: 0;
+    width: 40vw;
+    height: 96vh;
+    background: #23232e;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in;
   }
-  
-  @keyframes navLinkFade {
-    from {
-      opacity: 0;
-      transform: translateX(50px);
-    }
-    to {
-      opacity: 1;
-      transform: translateX(0);
-    }
-  }
-  
-  .mobile-menu.active .line1 {
-    transform: rotate(-45deg) translate(-8px, 8px);
-  }
-  
-  .mobile-menu.active .line2 {
+  .nav-list li {
+    margin-left: 0;
     opacity: 0;
   }
-  
-  .mobile-menu.active .line3 {
-    transform: rotate(45deg) translate(-5px, -7px);
+  .mobile-menu {
+    display: block;
   }
+}
 
-  /* CORPO */
+.nav-list.active {
+  transform: translateX(0);
+}
 
-  main{
-    background: url("fundo.jpg") no-repeat center center;
-    background-size: cover;
-    height: 96vh;
-    background-color: #23232e;
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
   }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
 
-header{
+.mobile-menu.active .line1 {
+  transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+.mobile-menu.active .line2 {
+  opacity: 0;
+}
+
+.mobile-menu.active .line3 {
+  transform: rotate(45deg) translate(-5px, -7px);
+}
+
+/* CORPO */
+
+main{
+  background: url("fundo.jpg") no-repeat center center;
+  background-size: cover;
+  height: 96vh;
   background-color: #23232e;
 }
 
+header{
+background-color: #23232e;
+}
+
 body{
-  background-color: #23232e;
+background-color: #23232e;
+}
+
+.nav-list li{
+  animation: navLinkFade 1s backwards;
+}
+
+.nav-list li:nth-child(1){
+  animation-delay: 0;
+}
+
+.nav-list li:nth-child(2){
+  animation-delay: 0.1s;
+}
+
+.nav-list li:nth-child(3){
+  animation-delay: 0.2s;
+}
+
+.nav-list li:nth-child(4){
+  animation-delay: 0.3s;
+}
+
+.nav-list li:nth-child(5){
+  animation-delay: 0.4s;
+}
+
+.nav-list li:nth-child(6){
+  animation-delay: 0.5s;
+} 
+
+.nav-list li:nth-child(7){
+  animation-delay: 0.6s;
+}
+
+.nav-list li:nth-child(8){
+  animation-delay: 0.7s;
 }

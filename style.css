@@ -24,20 +24,24 @@ a:hover{
     width: 55px;
     border-radius: 50%;
     cursor: pointer;
-
+    display: block;
+    margin-top: 10px;
+ 
 }
 
 
 /* BARRA DE NAVEGAÇÃO */
 nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 12px;
     background: #23232e;
     height: 8vh;
-    
+    background-size: cover;
+  
+
 }
 
 /* NAVEGADOR */
@@ -47,8 +51,7 @@ nav{
 }
 
 .nav-list li{ 
-    margin-right: 1rem;
-    margin-left: 1rem;
+  margin: 20px;    
 
 }
 
@@ -72,10 +75,10 @@ nav{
     }
     .nav-list {
       position: absolute;
-      top: 8vh;
+      top: 4vh;
       right: 0;
-      width: 50vw;
-      height: 92vh;
+      width: 40vw;
+      height: 96vh;
       background: #23232e;
       flex-direction: column;
       align-items: center;
@@ -121,10 +124,17 @@ nav{
 
   /* CORPO */
 
-  body{
+  main{
     background: url("fundo.jpg") no-repeat center center;
     background-size: cover;
-    height: 92vh;
+    height: 96vh;
     background-color: #23232e;
   }
 
+header{
+  background-color: #23232e;
+}
+
+body{
+  background-color: #23232e;
+}
